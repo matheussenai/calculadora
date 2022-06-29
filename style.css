@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.calculadora {
+    max-width: 240px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+}
+
+.calc-visor input {
+    width: 100%;
+    font-size: 50px;
+    padding: 5px;
+    text-align: right;
+}
+
+.calc-botoes {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 8px;
+}
+
+.calc-botoes button {
+    width: 60px;
+    height: 60px;
+    font-size: 40px;
+}
+
+.calc-botoes .limpar {
+    width: auto !important;
+    padding: 5px;
+}
